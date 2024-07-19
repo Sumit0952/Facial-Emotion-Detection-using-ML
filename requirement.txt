@@ -1,0 +1,22 @@
+tensorflow
+keras
+pandas
+numpy
+notebook
+jupyter
+tqdm
+opencv-contrib-python
+
+pandas model me dataframe ka method hota hai jisme hum dataframe bana sakte hai like ek table type bana sakte hai 
+
+image                       labels
+image/angry/sk.png          angry
+images/angry/sk2.png        angry 
+images/sad/sk1.png          sad
+images/sad/sk2.png          sad
+
+images ko ek array me convert karenge 
+uske liye tensor flow me method hota hai load images 
+load images ke ander hum images pass karenge grayscale me load_img(img,grayscale = True)
+jo bhi load image ka output hoga hm usse n pair me convert karke ek jagah store karenge apne model ko train karne ke liye 
+apni images ko process karne ke bad hm apna model banayenge aur usme layers dalenge jaise drop up layer a,2d layer in sab se apna model banaenge 
